@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tab_bottom_bg"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/navi_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        dd
+        <!-- 原来下边的LinearLayout的背景是 android:background="@drawable/nav_bg"
+          -->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_weight="1" />
+
+
+        <RadioButton
+            android:id="@+id/navi_btn_message"
+            style="@style/bottombar_radioButton"
+            android:background="@drawable/navi_btn_manage" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/navi_btn_firend"
+            style="@style/bottombar_radioButton"
+            android:background="@drawable/navi_btn_see" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/navi_btn_setting"
+            style="@style/bottombar_radioButton"
+            android:background="@drawable/navi_btn_setting" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+</LinearLayout>

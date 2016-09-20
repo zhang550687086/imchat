@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <RelativeLayout
+        android:id="@+id/base_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#18B4ED">
+
+        <TextView
+            android:id="@+id/tv_title_conent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="与xxx对话中"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <zj.chat.com.imchat.custom.view.DropdownListView
+        android:id="@+id/formclient_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_s"
+        android:layout_below="@id/base_header"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:listSelector="@color/transparent"
+        android:transcriptMode="normal" />
+
+    <LinearLayout
+        android:id="@+id/ll_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/rl_sr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F5F6F7">
+
+            <ImageView
+                android:id="@+id/image_add"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/btn_chat_add_selector" />
+
+            <ImageView
+                android:id="@+id/image_face"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/image_add"
+                android:src="@drawable/btn_chat_emo_selector" />
+
+            <EditText
+                android:id="@+id/input_sms"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@+id/rl_ic"
+                android:layout_toRightOf="@id/image_face"
+                android:background="@drawable/et_input_bg"
+                android:maxLength="240"
+                android:padding="2dip"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_speak"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@+id/rl_ic"
+                android:layout_toRightOf="@id/image_face"
+                android:background="@drawable/btn_chat_record_selector"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                android:text="长按说话"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rl_ic"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/send_sms"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_login_selector"
+                    android:gravity="center"
+                    android:text="发 送"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_chat_voice"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_chat_voice_selector"
+                    android:gravity="center"
+
+                    android:textColor="@color/base_color_text_black"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn_chat_keyboard"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_chat_keyboard_selector"
+                    android:textColor="@color/base_color_text_black"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/darker_gray" />
+
+        <include
+            android:id="@+id/chat_face_container"
+            layout="@layout/chat_face_container"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/chat_add_container"
+            layout="@layout/chat_add_container"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</RelativeLayout>

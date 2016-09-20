@@ -1,0 +1,85 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => asmack\src\main\AndroidManifest.xml
+* assets\ => asmack\src\main\assets
+* res\ => asmack\src\main\res\
+* src\ => asmack\src\main\java\
+* src\com\kenai\jbosh\package.html => asmack\src\main\resources\com\kenai\jbosh\package.html
+* src\data\smack-config.xml => asmack\src\main\resources\data\smack-config.xml
+* src\data\smack.providers => asmack\src\main\resources\data\smack.providers
+* src\org\jivesoftware\smack\Connection.java.orig => asmack\src\main\resources\org\jivesoftware\smack\Connection.java.orig
+* src\org\jivesoftware\smack\debugger\package.html => asmack\src\main\resources\org\jivesoftware\smack\debugger\package.html
+* src\org\jivesoftware\smack\filter\package.html => asmack\src\main\resources\org\jivesoftware\smack\filter\package.html
+* src\org\jivesoftware\smack\package.html => asmack\src\main\resources\org\jivesoftware\smack\package.html
+* src\org\jivesoftware\smack\packet\package.html => asmack\src\main\resources\org\jivesoftware\smack\packet\package.html
+* src\org\jivesoftware\smack\provider\package.html => asmack\src\main\resources\org\jivesoftware\smack\provider\package.html
+* src\org\jivesoftware\smack\sasl\package.html => asmack\src\main\resources\org\jivesoftware\smack\sasl\package.html
+* src\org\jivesoftware\smack\SASLAuthentication.java.orig => asmack\src\main\resources\org\jivesoftware\smack\SASLAuthentication.java.orig
+* src\org\jivesoftware\smack\util\package.html => asmack\src\main\resources\org\jivesoftware\smack\util\package.html
+* src\org\jivesoftware\smack\util\PacketParserUtils.java.orig => asmack\src\main\resources\org\jivesoftware\smack\util\PacketParserUtils.java.orig
+* src\org\jivesoftware\smackx\debugger\package.html => asmack\src\main\resources\org\jivesoftware\smackx\debugger\package.html
+* src\org\jivesoftware\smackx\muc\package.html => asmack\src\main\resources\org\jivesoftware\smackx\muc\package.html
+* src\org\jivesoftware\smackx\package.html => asmack\src\main\resources\org\jivesoftware\smackx\package.html
+* src\org\jivesoftware\smackx\packet\package.html => asmack\src\main\resources\org\jivesoftware\smackx\packet\package.html
+* src\org\jivesoftware\smackx\provider\package.html => asmack\src\main\resources\org\jivesoftware\smackx\provider\package.html
+* src\org\xbill\DNS\spi\services\sun.net.spi.nameservice.NameServiceDescriptor => asmack\src\main\resources\org\xbill\DNS\spi\services\sun.net.spi.nameservice.NameServiceDescriptor
+* src\org\xbill\DNS\windows\DNSServer.properties => asmack\src\main\resources\org\xbill\DNS\windows\DNSServer.properties
+* src\org\xbill\DNS\windows\DNSServer_de.properties => asmack\src\main\resources\org\xbill\DNS\windows\DNSServer_de.properties
+* src\org\xbill\DNS\windows\DNSServer_fr.properties => asmack\src\main\resources\org\xbill\DNS\windows\DNSServer_fr.properties
+* src\org\xbill\DNS\windows\DNSServer_pl.properties => asmack\src\main\resources\org\xbill\DNS\windows\DNSServer_pl.properties
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

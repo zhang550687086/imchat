@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vicoe_dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_record"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_record"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/chat_icon_voice1" />
+
+        <TextView
+            android:id="@+id/tv_voice_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_record"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="松开手指取消发送"
+            android:textColor="@color/whites"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

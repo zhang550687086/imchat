@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="3dp" />
+
+    <solid android:color="@color/tishi_dialog_content_bg" />
+
+    <stroke
+        android:width="2px"
+        android:color="@color/tishi_dialog_boader" />
+    
+ <!--    <gradient
+        android:angle="270"
+        android:centerColor="#FFFFFF"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="#DDDDDD"
+        android:startColor="#EEEEEE" />    -->
+    
+
+</shape>

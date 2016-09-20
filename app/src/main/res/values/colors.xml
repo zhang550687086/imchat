@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="up_title_bg">#f2f2f2</color>
+    <!-- 表单创建/新增/编辑的文本 [标题] 颜色 -->
+    <color name="biaodan_item_title_tv">#ff4400</color>
+
+    <!-- 弹出提示对话框背景色 -->
+    <color name="tishi_dialog_title_bg">#dcdcdc</color>
+    <color name="tishi_dialog_content_bg">#fafafa</color>
+    <color name="tishi_dialog_boader">#d1d1d1</color>
+    <!-- 菜单项文本颜色 -->
+    <color name="menu_tv_white">#FEFEFE</color>
+    <color name="menu_tv_black">#444444</color>
+    <color name="transparent">#00000000</color>
+    <!-- 提示对话框 按钮 按压颜色 -->
+    <color name="dialog_btn_color">#E9E9E9</color>
+    <!-- 提示框确认取消按钮文字颜色 -->
+    <color name="ti_btn_tv_color">#0270d3</color>
+    <drawable name="transparent_background">#00000000</drawable>
+    <!-- 底部背景 -->
+    <color name="bottom_bg">#f7f7f7</color>
+    <color name="tab_bottom_bg">#F7F1F1</color>
+    <!-- title背景颜色-->
+    <color name="title_bg">#18B4ED</color>
+    <color name="refresh_head_bg">#2B2B2B</color>
+    <color name="whites">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="item_back_press">#10000000</color>
+    <color name="common_title">#18B4ED</color>
+    <color name="blue">#499BF7</color>
+    <color name="friend_bg">#F1F0F0</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="white">#ffffff</color>
+    <!-- 其他边框色 -->
+    <color name="menu_item_other_boader_line_color">#f3f3f3</color>
+    <color name="menu_item_press_color">#D8D8D8</color>
+</resources>

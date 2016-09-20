@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">三言</string>
+    <!-- Refresh -->
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开立即刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+    <string name="control">管理</string>
+    <string name="group">分组</string>
+    <string name="all">全部</string>
+    <string name="cnews">消息</string>
+    <string name="call">通话</string>
+    <string name="tv_phone">通讯录</string>
+    <string name="tv_group">群组</string>
+    <string name="tv_discuss">讨论组</string>
+    <string name="tv_life">生活服务</string>
+    <string name="friend_group">好友分组</string>
+
+    <string name="recentchat">最近聊天</string>
+    <string name="choose_constact">选择联系人</string>
+    <string name="search">请输入关键字</string>
+    <string name="dynamic">动态</string>
+    <string name="msgs">消息</string>
+    <string name="frien">好友列表</string>
+    <string name="constacts">联系人</string>
+    <string name="mime">我</string>
+    <string name="tv_newfriend">新朋友</string>
+    <string name="tv_tongxunlu">通讯录</string>
+    <string name="tv_friend">QQ好友</string>
+</resources>

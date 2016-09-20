@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="@drawable/ic_dialog_bg" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/progress_animat"
+        android:max="100"
+        android:orientation="vertical" >
+    </ProgressBar>
+
+    
+    
+    <!-- android:textColor="@color/black" -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="正在加载"
+        android:textColor="@color/biaodan_item_title_tv"
+        android:textSize="12sp" />
+
+</LinearLayout>
