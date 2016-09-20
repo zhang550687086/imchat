@@ -23,6 +23,7 @@ public class FaceGVAdapter extends BaseAdapter {
 	private List<String> list;
 	private Context mContext;
 
+
 	public FaceGVAdapter(List<String> list, Context mContext) {
 		super();
 		this.list = list;
